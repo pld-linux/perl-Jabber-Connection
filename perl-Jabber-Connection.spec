@@ -59,6 +59,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README Changes
-%{perl_vendorlib}/Jebber/*
+%{perl_vendorlib}/Jabber/*
 %{_examplesdir}/%{name}-%{version}
 %{_mandir}/man3/*
