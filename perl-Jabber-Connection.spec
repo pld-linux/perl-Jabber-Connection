@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Jabber
-%define	pnam	Connection
+%define		pdir	Jabber
+%define		pnam	Connection
 Summary:	Jabber::Connection - simple connectivity functions for Jabber
 Summary(pl):	Jabber::Connection - proste funkcje ³±czenia z serwerem Jabbera
 Name:		perl-Jabber-Connection
