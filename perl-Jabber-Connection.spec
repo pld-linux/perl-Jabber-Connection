@@ -6,7 +6,7 @@
 %define		pdir	Jabber
 %define		pnam	Connection
 Summary:	Jabber::Connection - simple connectivity functions for Jabber
-Summary(pl):	Jabber::Connection - proste funkcje ³±czenia z serwerem Jabbera
+Summary(pl.UTF-8):   Jabber::Connection - proste funkcje Å‚Ä…czenia z serwerem Jabbera
 Name:		perl-Jabber-Connection
 Version:	0.03
 Release:	1
@@ -30,9 +30,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The Jabber::Connection Perl module provides basic functions for
 connecting clients and components to a Jabber server.
 
-%description -l pl
-Modu³ Perla Jabber::Connection udostêpnia podstawowe funkcje s³u¿±ce
-do ³±czenia klientów i komponentów z serwerem Jabbera.
+%description -l pl.UTF-8
+ModuÅ‚ Perla Jabber::Connection udostÄ™pnia podstawowe funkcje sÅ‚uÅ¼Ä…ce
+do Å‚Ä…czenia klientÃ³w i komponentÃ³w z serwerem Jabbera.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
