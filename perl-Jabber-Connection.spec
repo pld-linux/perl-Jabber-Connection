@@ -6,7 +6,7 @@
 %define		pdir	Jabber
 %define		pnam	Connection
 Summary:	Jabber::Connection - simple connectivity functions for Jabber
-Summary(pl.UTF-8):   Jabber::Connection - proste funkcje łączenia z serwerem Jabbera
+Summary(pl.UTF-8):	Jabber::Connection - proste funkcje łączenia z serwerem Jabbera
 Name:		perl-Jabber-Connection
 Version:	0.03
 Release:	1
