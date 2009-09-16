@@ -8,13 +8,13 @@
 Summary:	Jabber::Connection - simple connectivity functions for Jabber
 Summary(pl.UTF-8):	Jabber::Connection - proste funkcje łączenia z serwerem Jabbera
 Name:		perl-Jabber-Connection
-Version:	0.03
-Release:	2
+Version:	0.04
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	2721fce3cebe6de646c205f34f0368d2
+# Source0-md5:	c91046b3f5333349b37debd8bd6b1344
 BuildRequires:	perl-devel >= 1:5.8.0
 %if %{with tests}
 BuildRequires:	perl-Digest-SHA1 >= 1.03
