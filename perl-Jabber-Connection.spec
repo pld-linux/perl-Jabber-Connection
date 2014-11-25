@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Jabber
 %define		pnam	Connection
+%include	/usr/lib/rpm/macros.perl
 Summary:	Jabber::Connection - simple connectivity functions for Jabber
 Summary(pl.UTF-8):	Jabber::Connection - proste funkcje łączenia z serwerem Jabbera
 Name:		perl-Jabber-Connection
@@ -15,12 +15,13 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	c91046b3f5333349b37debd8bd6b1344
+URL:		http://search.cpan.org/dist/Jabber-Connection/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Digest-SHA1 >= 1.03
 BuildRequires:	perl-XML-Parser >= 2.29
 %endif
-BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	perl-Digest-SHA1 >= 1.03
 Requires:	perl-XML-Parser >= 2.29
 BuildArch:	noarch
