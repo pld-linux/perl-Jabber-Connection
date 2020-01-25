@@ -4,7 +4,6 @@
 
 %define		pdir	Jabber
 %define		pnam	Connection
-%include	/usr/lib/rpm/macros.perl
 Summary:	Jabber::Connection - simple connectivity functions for Jabber
 Summary(pl.UTF-8):	Jabber::Connection - proste funkcje łączenia z serwerem Jabbera
 Name:		perl-Jabber-Connection
